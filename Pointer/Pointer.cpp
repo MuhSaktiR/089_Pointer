@@ -6,3 +6,7 @@ public:
 	int nim;
 	void showNIM(); //deklarasi method
 };
+
+void mahasiswa::showNIM{ //implementasi method diuar class
+
+}
