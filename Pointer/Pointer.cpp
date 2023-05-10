@@ -8,5 +8,5 @@ public:
 };
 
 void mahasiswa::showNIM{ //implementasi method diuar class
-
+	cout << "No Induk = " << nim << endl;
 }
