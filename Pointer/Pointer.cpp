@@ -7,6 +7,11 @@ public:
 	void showNIM(); //deklarasi method
 };
 
-void mahasiswa::showNIM{ //implementasi method diuar class
+void mahasiswa::showNIM(){ //implementasi method diuar class
 	cout << "No Induk = " << nim << endl;
+}
+
+int main()
+{
+
 }
