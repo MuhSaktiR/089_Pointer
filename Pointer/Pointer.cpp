@@ -2,4 +2,7 @@
 using namespace std;
 
 class mahasiswa {
+public:
+	int nim;
+	void showNIM(); //deklarasi method
 };
