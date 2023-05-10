@@ -4,14 +4,16 @@ using namespace std;
 class mahasiswa {
 public:
 	int nim;
-	void showNIM(); //deklarasi method
+	void showNim(); //deklarasi method
 };
 
-void mahasiswa::showNIM(){ //implementasi method diuar class
+void mahasiswa::showNim(){ //implementasi method diuar class
 	cout << "No Induk = " << nim << endl;
 }
 
 int main()
 {
+	mahasiswa mhs{ 1 };		//objrct mhs
+	mhs.showNim();			//member access operator
 
 }
